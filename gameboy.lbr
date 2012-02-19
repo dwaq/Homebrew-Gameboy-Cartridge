@@ -352,7 +352,7 @@ Specifically based on the MBC1-B chip</description>
 <pin name="I/O5" x="10.16" y="15.24" length="short" direction="hiz" rot="R180"/>
 <pin name="I/O6" x="10.16" y="12.7" length="short" direction="hiz" rot="R180"/>
 <pin name="I/O7" x="10.16" y="10.16" length="short" direction="hiz" rot="R180"/>
-<pin name="VCC" x="10.16" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD" x="10.16" y="-22.86" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="10.16" y="-25.4" length="short" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
@@ -484,7 +484,7 @@ Specifically based on the MBC1-B chip</description>
 <connect gate="G$1" pin="I/O5" pad="19"/>
 <connect gate="G$1" pin="I/O6" pad="20"/>
 <connect gate="G$1" pin="I/O7" pad="21"/>
-<connect gate="G$1" pin="VCC" pad="32"/>
+<connect gate="G$1" pin="VDD" pad="32"/>
 </connects>
 <technologies>
 <technology name=""/>
