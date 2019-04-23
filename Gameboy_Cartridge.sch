@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -5759,6 +5760,129 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ" urn="urn:adsk.eagle:footprint:15432/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
+</package>
+<package name="SJW" urn="urn:adsk.eagle:footprint:15433/1" library_version="1">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
+<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
+<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
+<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
+<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
+<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
+<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
+<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
+<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
+<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
+<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
+<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
+<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
+<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
+<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ" urn="urn:adsk.eagle:package:15471/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ"/>
+</packageinstances>
+</package3d>
+<package3d name="SJW" urn="urn:adsk.eagle:package:15507/1" type="box" library_version="1">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJW"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SJ" urn="urn:adsk.eagle:symbol:15431/1" library_version="1">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ" urn="urn:adsk.eagle:component:15508/1" prefix="SJ" uservalue="yes" library_version="1">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15471/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="SJW">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15507/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5774,17 +5898,57 @@ Metric Code Size 5664</description>
 <part name="R1" library="resistor" deviceset="R-US_" device="M0805" value="47K"/>
 <part name="IC1" library="gameboy" deviceset="AT49F040J" device=""/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="20nF"/>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ4" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="SJ5" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="25.4" y="81.28" rot="R180"/>
-<instance part="U$1" gate="G$1" x="-10.16" y="50.8"/>
-<instance part="R1" gate="G$1" x="55.88" y="129.54"/>
-<instance part="IC1" gate="G$1" x="99.06" y="101.6"/>
-<instance part="C1" gate="G$1" x="55.88" y="116.84" rot="R90"/>
+<instance part="U$2" gate="G$1" x="25.4" y="81.28" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="78.74" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="25.4" y="116.84" size="1.27" layer="96" rot="R180"/>
+</instance>
+<instance part="U$1" gate="G$1" x="-10.16" y="50.8" smashed="yes">
+<attribute name="NAME" x="-10.16" y="63.5" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-10.16" y="58.42" size="1.27" layer="96"/>
+</instance>
+<instance part="R1" gate="G$1" x="55.88" y="129.54" smashed="yes">
+<attribute name="NAME" x="52.07" y="131.0386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="52.07" y="126.238" size="1.778" layer="96"/>
+</instance>
+<instance part="IC1" gate="G$1" x="99.06" y="101.6" smashed="yes">
+<attribute name="NAME" x="91.44" y="132.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.44" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="G$1" x="55.88" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.499" y="118.364" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="60.579" y="118.364" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SJ1" gate="1" x="58.42" y="99.06" smashed="yes">
+<attribute name="NAME" x="55.88" y="101.6" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="95.25" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ2" gate="1" x="58.42" y="93.98" smashed="yes">
+<attribute name="NAME" x="55.88" y="96.52" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="90.17" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ3" gate="1" x="58.42" y="88.9" smashed="yes">
+<attribute name="NAME" x="55.88" y="91.44" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="85.09" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ4" gate="1" x="58.42" y="83.82" smashed="yes">
+<attribute name="NAME" x="55.88" y="86.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="80.01" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ5" gate="1" x="58.42" y="78.74" smashed="yes">
+<attribute name="NAME" x="55.88" y="81.28" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="74.93" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5905,6 +6069,7 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="A15"/>
 <wire x1="0" y1="91.44" x2="5.08" y2="91.44" width="0.1524" layer="91"/>
 <label x="0" y="91.44" size="1.778" layer="95"/>
+<label x="66.04" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A15"/>
@@ -5922,6 +6087,7 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="A14"/>
 <wire x1="5.08" y1="93.98" x2="0" y2="93.98" width="0.1524" layer="91"/>
 <label x="0" y="93.98" size="1.778" layer="95"/>
+<label x="66.04" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="A14"/>
@@ -5956,6 +6122,7 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="M14"/>
 <wire x1="5.08" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="91"/>
 <label x="0" y="99.06" size="1.778" layer="95"/>
+<label x="48.26" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D" class="0">
@@ -5968,6 +6135,7 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="M15"/>
 <wire x1="0" y1="101.6" x2="5.08" y2="101.6" width="0.1524" layer="91"/>
 <label x="0" y="101.6" size="1.778" layer="95"/>
+<label x="48.26" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -5980,6 +6148,7 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="M16"/>
 <wire x1="5.08" y1="104.14" x2="0" y2="104.14" width="0.1524" layer="91"/>
 <label x="0" y="104.14" size="1.778" layer="95"/>
+<label x="48.26" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="22" class="0">
@@ -6116,6 +6285,30 @@ Metric Code Size 5664</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
 <label x="63.5" y="116.84" size="1.778" layer="95"/>
+<label x="66.04" y="99.06" size="1.778" layer="95"/>
+<label x="66.04" y="93.98" size="1.778" layer="95"/>
+<label x="66.04" y="93.98" size="1.778" layer="95"/>
+<label x="66.04" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="99.06" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="2"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="63.5" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="2"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="83.82" x2="66.04" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="2"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="11" class="0">
@@ -6277,6 +6470,22 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="M17"/>
 <wire x1="0" y1="106.68" x2="5.08" y2="106.68" width="0.1524" layer="91"/>
 <label x="0" y="106.68" size="1.778" layer="95"/>
+<label x="48.26" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="1"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="1"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="1"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -6289,6 +6498,11 @@ Metric Code Size 5664</description>
 <pinref part="U$2" gate="G$1" pin="M18"/>
 <wire x1="5.08" y1="109.22" x2="0" y2="109.22" width="0.1524" layer="91"/>
 <label x="0" y="109.22" size="1.778" layer="95"/>
+<label x="48.26" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="99.06" x2="48.26" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -6296,4 +6510,21 @@ Metric Code Size 5664</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
