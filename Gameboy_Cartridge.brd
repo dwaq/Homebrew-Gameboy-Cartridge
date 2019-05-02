@@ -74,7 +74,7 @@
 <text x="1.5" y="43.3" size="1.778" layer="21">Gameboy</text>
 <text x="1.5" y="40.8" size="1.778" layer="21">Cartridge</text>
 <text x="30" y="45" size="1.778" layer="21">goo.gl/Hq5Kc</text>
-<text x="3" y="9" size="1" layer="21" rot="R90">47417</text>
+<text x="14.9" y="26.6" size="0.8128" layer="21" rot="R180">32kB Variant</text>
 </plain>
 <libraries>
 <library name="gameboy">
