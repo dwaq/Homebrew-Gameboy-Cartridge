@@ -1,0 +1,9 @@
+Partlist exported from D:/Users/z003ruax/GitHub/Homebrew-Gameboy-Cartridge/Gameboy_Cartridge.sch at 5/6/2019 9:45 AM
+
+Qty Value         Device        Package   Parts                   Description                                             
+1   20nF          C-EUC0805     C0805     C1                      CAPACITOR, European symbol                              
+1   47K           R-US_M0805    M0805     R1                      RESISTOR, American symbol                               
+1   AT49F040J     AT49F040J     PLCC32R   IC1                     4-Megabit FLASH MEMORY                                  
+1   CONNECTOR     CONNECTOR     CONNECTOR U$1                     Connector Pads for Gameboy Cartridges                   
+1   MBC1B         MBC1B         MBC1B     U$2                     Nintendo Gameboy cartridge Memory Bank Controller (MBC) 
+5   SOLDER-JUMPER SOLDER-JUMPER SJ        SJ1, SJ2, SJ3, SJ4, SJ5                                                         
