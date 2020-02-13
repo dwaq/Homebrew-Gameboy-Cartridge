@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1595,9 +1595,7 @@ design rules under a new name.</description>
 <element name="SJ4" library="gameboy" package="SJ" value="SOLDER-JUMPER" x="14.338" y="30.1" smashed="yes" rot="R270">
 <attribute name="VALUE" x="14.338" y="29.6999" size="0.02" layer="27" rot="R90"/>
 </element>
-<element name="SJ5" library="gameboy" package="SJ" value="SOLDER-JUMPER" x="12.838" y="30.1" smashed="yes" rot="R270">
-<attribute name="VALUE" x="80.938" y="19.4999" size="0.02" layer="27" rot="R270"/>
-</element>
+<element name="SJ5" library="gameboy" package="SJ" value="SOLDER-JUMPER" x="12.838" y="30.1" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1629,10 +1627,10 @@ design rules under a new name.</description>
 <via x="17.95" y="40.2" extent="1-16" drill="0.35"/>
 <wire x1="17.95" y1="40.2" x2="18.1" y2="40.2" width="0.1524" layer="16"/>
 <polygon width="0.1524" layer="16">
-<vertex x="-0.9" y="49.5"/>
-<vertex x="51.6" y="49.5"/>
-<vertex x="51.6" y="-3.4"/>
-<vertex x="-1.40670625" y="-3.4"/>
+<vertex x="1" y="47.9"/>
+<vertex x="50" y="47.9"/>
+<vertex x="50" y="0.1"/>
+<vertex x="1" y="0.1"/>
 </polygon>
 </signal>
 <signal name="VDD">
@@ -1656,8 +1654,8 @@ design rules under a new name.</description>
 <vertex x="39.7" y="37.9"/>
 <vertex x="39.7" y="43.4"/>
 <vertex x="35.2" y="47.9"/>
-<vertex x="0.9" y="47.9"/>
-<vertex x="0.9" y="7.5"/>
+<vertex x="1" y="47.9"/>
+<vertex x="1" y="7.4"/>
 <vertex x="1.4" y="7"/>
 </polygon>
 </signal>
